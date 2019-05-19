@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+.chess{
+    background: linear-gradient(45deg, #fff 25%,transparent 26%,transparent 75%,#fff 76%),
+                linear-gradient(-45deg, #fff 25%,transparent 26%,transparent 75%,#fff 76%);
+    background-color: #000;
+    background-size: 200px 200px;
+    background-repeat: repeat-x;
+    height:100vh;
+}
+
+div div{
+    display:flex;
+    justify-content: center;
+}
+
+h1{
+    margin: 300px;
+    padding: 10px 0;
+    color: #FFF;
+    font-size: 125px;
+    font-family: 'Pacifico', cursive;
+    background-position: 0 0;
+    background-size: 100% 50px;
+    background-image: repeating-linear-gradient( -50deg,  transparent, 
+      transparent 1rem, #fff 1rem, #fff 2rem );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: stripes 6s linear infinite;
+}
+ @keyframes stripes {
+  100% {  
+      background-position: 20px 50px;
+  }
+ }
+
+
+
+
+/* Text Glow Effect */
+/* 
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px black, 0 0 40px black, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px black;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px black, 0 0 40px black, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff, 0 0 80px #fff;
+    }
+  } */
